@@ -1,0 +1,19 @@
+# I created one file called test and write a sequence abc,abbc,abbbc and tested solution using new word "ab*c".
+# The response was abc in all lines.
+# Final I print all results using grep.
+
+echo "Enter filename:"
+
+read filename
+
+echo "What word are you want to replace?"
+
+read word
+
+echo "What is the new word?"
+
+read new_word
+
+sed -i "s/$word/$new_word/g" $filename
+
+grep $new_word $filename 
