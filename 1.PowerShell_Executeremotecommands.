@@ -1,6 +1,6 @@
 # Data  ## http://www.leeholmes.com/blog/2009/11/20/testing-for-powershell-remoting-test-psremoting/  Helped me to create that.
 # I added authentication.
-# It's copies and execute file using autenthication.
+# Copy and execute file using autenthication.
 
 [CmdletBinding()] 
 param ( 
