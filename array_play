@@ -1,0 +1,13 @@
+@author: petrus
+# Get the first number in a tupple and multiply by next tupple.
+s = (4,(1,2,3,4))
+f = s[1]
+n = 0
+
+for x in xrange(s[0]):
+    list (f)    
+    t = f[n]   
+    a = s[0]+t    
+    n = n+1    
+    print a
+    
